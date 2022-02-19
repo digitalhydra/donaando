@@ -2,5 +2,5 @@
   "root": "apps/donaando-webapp",
   "sourceRoot": "apps/donaando-webapp",
   "projectType": "application",
-  "tags": []
+  "tags": [ "react", "frontend"]
 }

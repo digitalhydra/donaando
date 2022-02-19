@@ -1,6 +1,6 @@
 import type { MetaFunction, LoaderFunction } from 'remix';
 import { useLoaderData, json, Link } from 'remix';
-
+import { DonaandoUi } from "@donaando/donaando-ui";
 type IndexData = {
   resources: Array<{ name: string; url: string }>;
   demos: Array<{ name: string; to: string }>;
@@ -61,6 +61,7 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
+        <DonaandoUi />
         <h2>Welcome to Remix!</h2>
         <p>We're stoked that you're here. 🥳</p>
         <p>
