@@ -16,6 +16,8 @@ A web app that will display places where you can take donations based on locatio
 - Practice TailwindCSS
 - Practice React and Typescript
 - Create a UI library
+- Create a Storybook for the UI library
+- Create a content i18n library
 - Create a feature manager
 - Create functional testing for all apps
 - Create E2E test for the Web App
@@ -23,8 +25,12 @@ A web app that will display places where you can take donations based on locatio
 - How to create a monorepo (with Nx)
 - Learn react SSR (handle Remix)
 - CI/CD to deploy the web app and serverless function
-- web scrapper for the app data (to debate)
 
+
+#### Nice to have objectives
+- web scrapper for the app data (to debate)
+- Have google maps integration
+- Use data to fill auto complete search
 # Applications
 
 ### Webapp 
