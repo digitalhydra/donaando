@@ -2,8 +2,9 @@
 
 # Donaando Project
 
-This project is a learning exercise for full stack web development on the road to senior/lead roles.
+This project is a learning exercise for web developers on the road to senior/lead roles.
 
+The making of this project is livestream on https://www.twitch.tv/a_digital_nomad
 ## Concept
 
 A web app that will display places where you can take donations based on location, this are non profit organizations like food banks and homes for the elderly and the homeless.

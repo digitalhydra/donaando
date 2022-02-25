@@ -2,7 +2,6 @@
   "version": 2,
   "projects": {
     "donaando-server": "libs/donaando-server",
-    "donaando-ui": "libs/donaando-ui",
     "donaando-webapp": "apps/donaando-webapp"
   }
 }

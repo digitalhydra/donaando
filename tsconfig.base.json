@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@donaando/donaando-server": ["libs/donaando-server/src/index.ts"],
-      "@donaando/donaando-ui": ["libs/donaando-ui/src/index.ts"]
+      "@donaando/donaando-webapp": ["apps/donaando-webapp/app/root.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

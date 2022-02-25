@@ -12,10 +12,12 @@ import type { LinksFunction } from 'remix';
 
 import globalStylesUrl from '~/styles/global.css';
 import darkStylesUrl from '~/styles/dark.css';
+import uiStyles from '@donaando/donaando-ui/dist/index.cjs.css'
 
 // https://remix.run/api/app#links
 export let links: LinksFunction = () => {
   return [
+    { rel: 'stylesheet', href: uiStyles },
     { rel: 'stylesheet', href: globalStylesUrl },
     {
       rel: 'stylesheet',
@@ -121,26 +123,8 @@ function Document({
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="remix-app">
+    <div className="donaando-app">
       <header className="remix-app__header">
-        <div className="container remix-app__header-content">
-          <Link to="/" title="Remix" className="remix-app__header-home-link">
-            <RemixLogo />
-          </Link>
-          <nav aria-label="Main navigation" className="remix-app__header-nav">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <a href="https://remix.run/docs">Remix Docs</a>
-              </li>
-              <li>
-                <a href="https://github.com/remix-run/remix">GitHub</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </header>
       <div className="remix-app__main">
         <div className="container remix-app__main-content">{children}</div>
